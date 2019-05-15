@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color:#130f40;
+	background-size: cover;
+	padding: 2.5% 25% 0 22%;
+	font-family: 'Poppins', sans-serif;
+	height: auto;
+	background-image: url("../images/login.png");
+	min-width: 837px;
+
+}
+.row{
+	height:95%;
+	width: 57vw;
+	background-color:rgba(0,0,0,0.8);
+	border-radius: 0.9vw;
+	border-style: solid rgb(0,0,0);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	display: flex;
+	padding: 3px;
+}
+.left-col{
+	width:50%;
+	height: 100%;
+	padding: 129px 10%;
+}
+.left-col img{
+	height: 17vw;
+	width: auto;
+	transition:0.5s;
+	filter:drop-shadow();
+}
+.right-col{
+	width:50%;
+	height: 100%;
+}
+h2{
+	padding: 12vh 20% 0 17%;color: white;
+}
+input ,[type=email] ,[type=password]{
+	height: 40px;
+	width: 100%;
+	border-radius: 1.5vw;
+	padding: 2px 0 2px 40px;
+	background-color:#efeaea;
+	border:none;
+	transition: 0.5s;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+button{
+	background-color:#130f40;
+	height: 40px;
+	color:white;
+	width: 100%;
+	border:none;
+	border-radius: 1.5vw;
+	transition: 0.5s;
+}
+.left-col img:hover{
+	transform: scale(0.8) rotate(360deg);
+	transition: 0.5s;
+}
+button:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	background-color: black;
+	color: white;
+}
+form{
+
+	width: 70%;
+	align-content: center;
+	height: 50%;
+	margin-top: 10vh;
+	margin-left: 3vh;
+}
+h5{
+	margin-left: 20%;
+}
+h5 a{
+	text-decoration: none;color:white;
+	transition: 0.3s;
+}
+ h5 a:hover{
+color::#130f40;
+border-bottom: 1px solid white;
+transition: 0.3s;
+}
+
+@media screen and (max-width: 600px){
+	body{
+		padding: 4% 4% 0% 4%;
+	}
+	.row{
+		width: 100%;
+		height: 90vh;
+	}
+	.left-col{
+	display: none;
+	height: 0;
+    	width: 0
+}
+    .left-col img{
+    	display: none;
+    	height: 0;
+    	width: 0
+    }
+    .right-col{
+    	padding: 0 0 0 15px;
+	width:100%;
+	height: 100%;
+}
+	form{
+	width: 85%;
+	align-content: center;
+	height: 50%;
+	margin-top: 10vh;
+	margin-left: 3vh;
+}
+h2{
+	padding: 12vh 20% 0 29%; 
+}
+h5{
+	text-align: center;
+	margin: 0 3px 0 0;
+}
+
+}

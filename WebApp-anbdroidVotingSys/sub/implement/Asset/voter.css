@@ -1,0 +1,74 @@
+.main{
+	display:inline-flex;
+}
+form{
+	margin-bottom: 5%;
+	width:400px;
+	height: auto;margin-bottom: 100px;
+	padding:30px ;
+	border:0.5px solid grey;
+	border-radius:6px;
+	box-shadow: 5px 5px 8px 5px #888888;transition: 0.5s;
+}
+[type=submit]
+{
+	border-radius: 1.5vw;line-height: 10px;
+	border:1px solid;position: relative;
+	border-color:rgba(53,170,36,0.8);
+}
+
+textarea{
+	resize: none;
+	border-radius:5px;margin-top: 30px;
+	border:1px solid grey;
+}
+h4{
+	float: left;
+}
+p{
+	padding: 4px;
+	float: left;width: 100%;
+	text-align: left;
+	border:1px solid grey;
+	border-radius: 4px;margin-bottom: 30px;
+}
+[type=submit]:hover
+{
+	transform: scale(1.1);
+	color: white;
+	transition: 0.5s;
+	background-color:black;
+}
+[type=submit]
+{
+	border-radius: 1.5vw;
+	transition: 0.5s;
+	background-color:#130f40;
+	color: white;
+	margin-bottom:10px;
+	padding: 10px 20px; 
+	border:none;
+}
+.counter{
+	margin-top: -50vh;float: right;margin-bottom: 50px;
+	height: 210px;width: 150px;
+	padding:10px;
+	border:1px solid grey;
+	border-radius: 6px;box-shadow: 5px 5px 8px 5px #888888;
+}
+.counter-box button{
+	padding: 10px;border-radius:8px;border:1px solid grey;box-shadow: 5px 5px 8px 5px #888888;background-color: orange;color:white;
+	width: 100%;transition: 0.5s;
+}
+.counter-box{
+	height:100%;
+	width: 100%;
+}
+@media screen and (max-width:600px)
+{
+.counter{
+	margin-left: 33%;
+	float:none;
+	margin-top: 15vh;
+}
+}

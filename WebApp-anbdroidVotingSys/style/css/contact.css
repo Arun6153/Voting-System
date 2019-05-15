@@ -1,0 +1,42 @@
+body{
+  background-image: url(../images/avarar.png);
+  min-height: 837px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main{
+  padding: 4vw 120px 0 8vw;
+}
+.main-form{
+     width: 400px;margin-top:-15vh;margin-bottom:10px;
+     border-radius: 6px;
+     height:auto;padding: 30px;
+     resize: none;border:1px solid grey;
+     float: right;box-shadow:0 0  10px 5px #888888;
+}
+.form-control{
+  transition: 0.5s;
+  resize: none;
+}
+.main-email{
+	float:left;width: 100px;
+	margin-top:10vw;
+	color:black;
+}
+
+@media screen and (max-width: 600px)
+{
+	h4{
+		font-size:12px;
+	}
+
+	.main-form{
+		margin-top:15% ;
+    width: 400px;
+    height: auto;
+    resize: none;
+    float:none;
+    }
+}
